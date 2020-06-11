@@ -1,0 +1,102 @@
+# This list all other files to be included/excluded of the distribution
+include MANIFEST.in
+# list of the non python module to be included in the distribution
+include Pmv/_pmvrc
+include Pmv/Tests/Data/*
+include Pmv/RELNOTES
+include Pmv/bin/pmv
+include Pmv/Icons/*.gif
+include Pmv/Icons/Images/*
+include Pmv/Icons/*.ppm
+include Pmv/doc.tar.gz
+include Pmv/data/*
+include Pmv/doc/*
+include Pmv/Icons/*
+include Pmv/Icons/128x128/*
+include	Pmv/Icons/64x64/*
+include Pmv/Icons/16x16/*
+include Pmv/Icons/22x22/* 
+include Pmv/Icons/32x32/*
+include Pmv/Icons/48x48/*
+include Pmv/Icons/Grid3D/*
+include Pmv/Tests/Data/clouds/*
+include PmvDIST/Pmv/styles/*
+
+# include all the CVS directories
+include Pmv/CVS/*
+include Pmv/data/CVS/*
+include Pmv/bin/CVS/*
+include Pmv/Icons/CVS/*
+include Pmv/VisionInterface/CVS/*
+include Pmv/Icons/Images/CVS/*
+include Pmv/Tests/CVS/*
+include Pmv/Tests/Data/CVS/*
+include Pmv/Macros/CVS/*
+include Pmv/doc/CVS/*
+include Pmv/VisionInterface/Tests/CVS/*
+include Pmv/hostappInterface/autodeskmaya/CVS/*
+include Pmv/hostappInterface/autodeskmaya/plugin/CVS/*
+include Pmv/hostappInterface/autodeskmaya/icons/CVS/*
+include Pmv/hostappInterface/blender/CVS/*
+include Pmv/hostappInterface/blender/plugin/CVS/*
+include Pmv/hostappInterface/Chimera/CVS/*
+include Pmv/hostappInterface/cinema4d/CVS/*
+include Pmv/hostappInterface/cinema4d/plugin/CVS/*
+include Pmv/hostappInterface/cinema4d/plugin/res/CVS/*
+include Pmv/hostappInterface/cinema4d_dev/plugin/CVS/*
+include Pmv/hostappInterface/extension/testAF/CVS/*
+include Pmv/hostappInterface/images/icons/CVS/*
+include Pmv/hostappInterface/CVS/*
+include Pmv/hostappInterface/extension/CVS/*
+include Pmv/hostappInterface/extension/Modeller/CVS/*
+include Pmv/hostappInterface/houdini/CVS/*
+include Pmv/hostappInterface/images/CVS/*
+include Pmv/hostappInterface/Template/CVS/*
+include Pmv/hostappInterface/blender/test/CVS/*
+include Pmv/hostappInterface/cinema4d/test/CVS/*
+include Pmv/hostappInterface/demo/CVS/*
+include Pmv/styles/CVS/*
+include Pmv/scenarioInterface/Tests/CVS/*
+include Pmv/VisionInterface/Tests/Data/CVS/*
+
+include  Pmv/Icons/128x128/CVS/*
+include  Pmv/Icons/64x64/CVS/*
+include  Pmv/Icons/16x16/CVS/*
+include  Pmv/Icons/22x22/CVS/* 
+include  Pmv/Icons/32x32/CVS/*
+include  Pmv/Icons/48x48/CVS/*
+include  Pmv/Icons/Grid3D/CVS/*
+include Pmv/Tests/Data/clouds/CVS/*
+
+include Pmv/hostappInterface/blender/plugin/*
+include Pmv/hostappInterface/blender/*.sh
+include Pmv/hostappInterface/cinema4d/*
+include Pmv/hostappInterface/cinema4d/plugin/*
+include Pmv/hostappInterface/cinema4d_dev/plugin/*
+include Pmv/hostappInterface/demo/*
+include Pmv/hostappInterface/extension/*
+include Pmv/hostappInterface/images/*
+include Pmv/hostappInterface/images/icons/*
+include Pmv/hostappInterface/autodeskmaya/icons/*
+include Pmv/hostappInterface/cinema4d/plugin/res/*
+include Pmv/hostappInterface/*.txt
+include Pmv/hostappInterface/*.bat
+
+include version.py
+include Pmv/LICENSE
+
+# exclude files from Tests directories (leaving just empty directories with CVS entries , so the "setup.py install" command does not fail)
+exclude Pmv/Tests/*.py
+exclude Pmv/Tests/Data/*gro
+exclude Pmv/Tests/Data/*trr
+exclude Pmv/Tests/Data/*trj
+exclude Pmv/Tests/Data/*cif
+exclude Pmv/Tests/Data/*list
+exclude Pmv/Tests/Data/*file*
+exclude Pmv/Tests/Data/*bnd
+exclude Pmv/Tests/Data/*.m*
+exclude Pmv/Tests/Data/*name
+exclude Pmv/Tests/Data/*.p*
+exclude Pmv/Tests/Data/clouds/*.py
+exclude Pmv/Tests/Data/clouds/*.tif
+exclude Pmv/VisionInterface/Tests/Data/*.pdb
